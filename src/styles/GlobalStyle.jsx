@@ -24,6 +24,16 @@ html {
   box-sizing: inherit;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 a {
   color: inherit;
   text-decoration: none;
