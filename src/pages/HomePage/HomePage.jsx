@@ -15,7 +15,7 @@ export default function HomePage() {
     <Section>
       <Container>
         <Title>Phonebook</Title>
-        <Text>All your contacts are here!</Text>
+        <Text>All your contacts in one place!</Text>
         <BsArrowDownCircleFill size={32} fill="#f7cd23" />
         <Link to={routes.CONTACTS}>
           <Image src={phonebook} alt="Phonebook" />
